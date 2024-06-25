@@ -1,13 +1,18 @@
-# Dungeon-and-Dragons-CPP
-
-## The Game
+# Dungeon and Dragons C++
+This is implementation of DnD game using C++. Topics met here are:
+- Classes and Objects
+- Inheritance
+- smart pointers
+- Strings and Streams
+- operator overloading and own exeption class
+### The Game
 The following is just a quick overview of the basic elements of the game, a more detailed description can be found in
 Milestone 1 - Basic Structure and Output and Milestone 2 - Game Logic.
 In this game, 1 to 3 players explore a dungeon that consists of interconnected rooms. Along the way they have to fight
 enemies and can find helpful items.
 
 
-## Start of the Game
+### Start of the Game
 At the beginning of the game each player chooses one of the following three player types. Depending on the chosen type
 each player has different stats and base equipment.
 
@@ -16,7 +21,7 @@ Rogue
 Wizard
 
 
-## Playing the Game
+### Playing the Game
 The game consists of multiple rounds of two alternating phases, the Player Phase and the Enemy Phase.
 In the Player Phase the players can perform actions. When the total number of player actions in this phase
 has reached the number of players, the Player Phase ends. If the room the players are currently in contains enemies,
