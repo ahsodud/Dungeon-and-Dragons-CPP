@@ -1,8 +1,8 @@
 # Dungeon and Dragons C++
 This is implementation of DnD game using C++. Topics met here are:
 - Classes and Objects
-- Inheritance
-- smart pointers
+- Inheritance, polymorphism
+- Smart pointers
 - Strings and Streams
 - operator overloading and own exeption class
 ### The Game
@@ -16,9 +16,9 @@ enemies and can find helpful items.
 At the beginning of the game each player chooses one of the following three player types. Depending on the chosen type
 each player has different stats and base equipment.
 
-Barbarian
-Rogue
-Wizard
+**Barbarian**
+**Rogue**
+**Wizard**
 
 
 ### Playing the Game
